@@ -66,3 +66,51 @@ body{
 }
 a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
+
+#proyectos {
+  text-align: center;
+  padding: 50px 20px;
+  background: #111;
+}
+
+#proyectos h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ffb400;
+}
+
+.proyectos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.proyecto {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #ffb400;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.proyecto a:hover {
+  background: #e09a00;
+}

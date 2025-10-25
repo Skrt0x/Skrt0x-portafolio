@@ -70,7 +70,7 @@ a:hover{text-decoration:underline}
 #proyectos {
   text-align: center;
   padding: 50px 20px;
-  background: #111;
+  background: #fffafa;
 }
 
 #proyectos h2 {
@@ -87,11 +87,11 @@ a:hover{text-decoration:underline}
 }
 
 .proyecto {
-  background: #1e1e1e;
+  background: #fffafa;
   padding: 20px;
   border-radius: 15px;
   width: 250px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(234, 225, 225, 0.5);
   transition: transform 0.2s ease;
 }
 
@@ -104,7 +104,7 @@ a:hover{text-decoration:underline}
   margin-top: 10px;
   padding: 10px 15px;
   background: #ffb400;
-  color: #000;
+  color: #000000;
   border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
